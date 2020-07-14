@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Question 2</title>
+<style>
+
+body{
+	background-image: url('bgimage.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	
+}
+table{
+
+	border-collapse: separate;
+    border-spacing: 0px 15px;
+  	color:white;
+	background:rgba(200, 150, 200, 0.15);
+}
+td{
+	border: 0px solid white;
+	padding:7px 20px 7px 50px;
+	font-size:20px;
+	
+}
+label {
+    padding:20px 0px 30px 40px;
+    font-size:28px;
+}
+input[type=text] {
+    border: none;
+    line-height: 35px; 
+}
+input[type=text]:focus {
+     border: 4px solid #750d74; 
+}
+textarea:focus{
+	border: 4px solid #750d74;
+}
+input[type=email] {
+    border: none;
+    line-height: 35px;
+  
+}
+input[type=date] {
+    border: none;
+    line-height: 35px;
+  
+}
+input[type=submit] {
+       border: none;
+}
+input[type=reset] {
+      border: none;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<center>
+<br>
+<span style="color:white;text-align:center;font-size:55px;font-family:'Times New Roman', Times, serif;text-decoration:underline;text-shadow: 4px 3px black;"><b>Signup Form</b></span>
+<br><br>
+<table>
+<form name="formque" id="myform">
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td style="width:230px;text-align:left;text-shadow: 2px 2px black;"><label for="firstname">&emsp;First Name</label>&nbsp;&nbsp;</td>
+&emsp;
+<td style="width:425px"><input style="width:65%" type="text" placeholder="Enter your First Name" required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="lastname">&emsp;Last Name</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%" type="text" placeholder="Enter your Last Name" required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;" ><label for="dob">&emsp;Date of Birth</label>&nbsp;&nbsp;</td>
+<td><input style="width:66%" type="date" placeholder="Enter your D.O.B."/></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;" ><label for="gender">&emsp;Gender</label>&nbsp;&nbsp;</td>
+<td>
+<input type="radio" name="gender" checked /><span>Male</span>
+<input type="radio" name="gender"/><span>Female</span>
+<input type="radio" name="gender"/><span>Others</span>
+</td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="languages">&emsp;Languages</label>&nbsp;&nbsp;</td>
+
+<td><input type="checkbox" name="option1" value="English" checked /><span>English</span>
+
+<input type="checkbox" name="option2" value="Hindi"/><span>Hindi</span>
+
+<input type="checkbox" name="option3" value="Spanish"/><span>Spanish</span>
+<br> <br>
+<input type="checkbox" name="option4" value="French"/><span>French</span>
+
+<input type="checkbox" name="option5" value="chinese"/><span>Chinese</span>
+
+</td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;" ><label for="emailid">&emsp;Email</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%" type="email" name="emailid" placeholder="Enter your Email id" required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="phoneno.">&emsp;Phone No.</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%" type="text" name="phoneno" max="10" placeholder="Enter your phone no." required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="address">&emsp;Address</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%" type="text" placeholder="Enter your Address" required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="country">&emsp;Country</label>&nbsp;&nbsp;</td>
+<td>
+ <select name="country" style="width:120px;height:35px">
+  <option value="India">India</option>
+  <option value="Germany">Germany</option>
+  <option value="America">America</option>
+  <option value="China">China</option>
+  <option value="London">London</option>
+  <option value="Australia">Australia</option>
+ </select>
+</td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="city">&emsp;City</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%" type="text" placeholder="Enter your City" required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="state">&emsp;State</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%" type="text" placeholder="Enter your State" required /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="photo">&emsp;Photo</label>&nbsp;&nbsp;</td>
+<td><input style="width:65%"  type="file" /></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="comments">&emsp;Comments</label>&nbsp;&nbsp;</td>
+<td><textarea style="width:65%" rows="3" placeholder="Write your Comment(s) here"></textarea></td>
+</tr>
+
+<tr>
+<td style="width:200px;text-align:left;text-shadow: 2px 2px black;"><label for="status">&emsp;Status</label>&nbsp;&nbsp;</td>
+<td>
+<input type="radio" name="relationship status" value="single" checked/><span>Single</span>
+
+<input type="radio" name="relationship status" value="married"/><span>Married</span>
+
+<input type="radio" name="relationship status" value="Divorced" /><span>Divorced</span>
+<br><br>
+
+<input type="radio" name="relationship status" value="widow" /><span>Widow/Widower</span>
+</td>
+</tr>
+<tr></tr>
+<tr>
+<td colspan="2" style="text-align:center;font-size:15px;">
+<input style="font-size:27px;width:100px;height:35px;background-color:#ebe1e1;font-family:Times New Roman;"type="submit" value="Save"/>
+&nbsp;
+<input style="font-size:27px;width:100px;height:35px;background-color:#ebe1e1;font-family:Times New Roman;" type="reset" placeholder="Reset Data"/>
+</td>
+</tr>
+
+</form>
+</table>
+<br>
+<marquee style="color:white;font-size:18px;">Copyright &copy;24/7 Software,Inc. All Rights Reserved.</marquee>
+</center>
+</body>
+
+</html>
