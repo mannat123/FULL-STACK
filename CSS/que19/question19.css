@@ -1,0 +1,18 @@
+body{
+background-color: thistle;
+}
+
+h3{
+    font-family: Cambria; 
+    margin-top: 25px;
+    color:rgb(119, 11, 11);
+    font-size:2rem;
+    margin-left: 20px;
+}
+.ul-list li{
+    
+    float:left ;
+    margin-top: 15px;
+    margin-left:35px;
+    font-size: 1.5rem;
+}

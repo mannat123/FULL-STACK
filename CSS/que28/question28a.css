@@ -1,0 +1,93 @@
+body{
+	background-image: url('images/img3.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+    background-size:cover;
+}
+ 
+table{
+    background-color:rgba(7, 141, 165, 0.7);
+	 opacity:0.8;
+	border-collapse: separate;
+    border-spacing: 0px 15px;
+  	color:white;
+    border: 3px solid white;
+    margin: 0  80px;
+    margin-bottom: 30px;
+	width: 80%;
+	height:550px;
+	}
+
+table.center{
+    margin-left:10%;
+}
+td{
+   
+	border: 0px solid white;
+  font-size:13px;
+  font-family: Calibri Light, cursive;
+  padding:7px;
+}
+
+label {
+   
+  font-size:20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+	margin-left:20px;
+	text-decoration:bold;
+}
+input{
+	background-color: #136979 ;
+	border:1.5px solid white;
+	color:white;
+	height:30px;
+	width:250px;
+}
+
+input[type=submit] {
+  font-size: large;
+  font-weight: bolder;
+       border: none;
+       height:2.5rem;
+       margin-left:20.5%;
+       position: relative;
+       width: 12rem;
+       margin-bottom:50px;
+       background-color: rgb(37, 136, 126,1);
+       
+}
+input[type=reset] {
+  font-size: large;
+  font-weight: bolder;
+      border: none;
+      height:2.5rem;
+      position: relative;
+    width: 12rem;
+    margin-bottom:50px;
+    background-color: rgb(223, 223, 46,1);
+}
+::placeholder { 
+    color:white;
+    opacity: 1; 
+    padding-left: 1rem;
+    font-weight: bold;
+  }
+  
+  :-ms-input-placeholder { 
+    color:white;
+    opacity: 1; 
+    padding-left: 1rem;
+    font-weight: bold;
+  }
+  
+  ::-ms-input-placeholder { 
+    color: white;
+    opacity: 1; 
+    padding-left: 1rem;
+    font-weight: bold;
+  }
+  
+
+
